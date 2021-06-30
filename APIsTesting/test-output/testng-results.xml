@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4935" started-at="2021-05-05T22:56:20Z" finished-at="2021-05-05T22:56:25Z">
+  <suite name="Default suite" duration-ms="5364" started-at="2021-06-30T07:33:34Z" finished-at="2021-06-30T07:33:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4935" started-at="2021-05-05T22:56:20Z" finished-at="2021-05-05T22:56:25Z">
-      <class name="com.api.tests.DELETE_API_Call">
-        <test-method status="PASS" signature="deleteUserWithAPITest()[pri:0, instance:com.api.tests.DELETE_API_Call@6f7fd0e6]" name="deleteUserWithAPITest" duration-ms="4899" started-at="2021-05-05T22:56:20Z" finished-at="2021-05-05T22:56:25Z">
+    <test name="Default test" duration-ms="5364" started-at="2021-06-30T07:33:34Z" finished-at="2021-06-30T07:33:39Z">
+      <class name="com.api.tests.GET_API_NoBDD">
+        <test-method status="PASS" signature="getUserList2APITest()[pri:2, instance:com.api.tests.GET_API_NoBDD@6f7fd0e6]" name="getUserList2APITest" duration-ms="5307" started-at="2021-06-30T07:33:34Z" finished-at="2021-06-30T07:33:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteUserWithAPITest -->
-      </class> <!-- com.api.tests.DELETE_API_Call -->
+        </test-method> <!-- getUserList2APITest -->
+      </class> <!-- com.api.tests.GET_API_NoBDD -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

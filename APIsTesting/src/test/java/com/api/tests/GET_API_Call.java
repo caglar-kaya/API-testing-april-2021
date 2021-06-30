@@ -1,9 +1,7 @@
 package com.api.tests;
 
 import org.testng.annotations.Test;
-
 import io.restassured.RestAssured;
-
 import static io.restassured.RestAssured.*;
 
 public class GET_API_Call {
